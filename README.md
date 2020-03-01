@@ -5,10 +5,10 @@
 ![memenite](https://i.imgur.com/7oxYjUA.png)
 
 This tool is completely free and opensource.
-Why batch? It works. It's user friendly, easy for anyone to learn, edit and make improvements. 
+Why batch? It works. It's user friendly, convenient, easy for anyone to learn, edit and make improvements. 
 
 ### Menu:
-![memenite](https://i.snipboard.io/fTiSWa.jpg)
+![memenite](https://i.imgur.com/7bpIu5V.png)
 
 ### Features:
 - Fortnite Anti-cheat Bruteforcer ✔️
