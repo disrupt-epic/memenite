@@ -16,6 +16,7 @@ Why batch? It works. It's user friendly, convenient, easy for anyone to learn, e
 - Cleaner ✔️
 - Hardware Serials checker ✔️
 - Fortnite Cheat ✔️
+- Fortnite FOV Changer ✔️
 
 
 
