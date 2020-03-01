@@ -2,9 +2,6 @@
 ## Fortnite Anti-cheat Bruteforcer, HWID Spoofer, Cleaner, Hardware Serials checker, Cheat
 ### ElitePVP - https://www.elitepvpers.com/forum/fortnite-hacks-bots-cheats-exploits/4713716-release-free-ac-forcer-spoofer-serial-checker-cleaner.html#post37952599
 
-https://specials-images.forbesimg.com/imageserve/5e4e80dd7a0098000733cb70/960x0.jpg?fit=scale
-
-
 
 This tool is completely free and opensource.
 Why batch? It works. It's user friendly, easy for anyone to learn, edit and make improvements. 
