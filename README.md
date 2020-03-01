@@ -1,8 +1,17 @@
-# memenite - FortniteAnti-cheat Bruteforcer, HWID Spoofer, Cleaner, Hardware Serials checker.
+# memenite
+## Fortnite Anti-cheat Bruteforcer, HWID Spoofer, Cleaner, Hardware Serials checker, Cheat
 
 
 
 This tool is completely free and opensource.
-Why batch? It works. It's user friendly, easy for anyone to learn, edit and make improvements.
+Why batch? It works. It's user friendly, easy for anyone to learn, edit and make improvements. 
 
-Fortnite Anti-cheat Bruteforcer, HWID Spoofer, Cleaner, Hardware Serials checker.
+Features:
+Fortnite Anti-cheat Bruteforcer
+HWID Spoofer
+Cleaner
+Hardware Serials checker
+Fortnite Cheat
+
+
+
