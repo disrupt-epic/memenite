@@ -1,5 +1,5 @@
 @ECHO OFF
-title OpenSource 
+title Opensource 
 
 
 SETLOCAL ENABLEEXTENSIONS
@@ -28,14 +28,15 @@ SET CurrentDir=%~dp0
 echo.Mapping Driver.
 %CurrentDir%mapper.exe spoofer.sys
 echo.Driver Mapped. HDD serial has been successfully changed.
+echo.Make sure you also run the cleaner.
 pause
 cls
 GOTO:EOF
 
-:menu_2   Force BattlEye
+:menu_2   Bruteforce BattlEye
 cls
 echo.1) Make sure you are logged into your Epic account or this will not work.
-echo.2) This automates the date change forcing method.
+echo.2) This bruteforces until the selected anti-cheat loads.
 echo.3) Please be patient while the script runs.
 echo.
 pause
@@ -86,7 +87,7 @@ GOTO:menuLOOP
 :menu_3   Force EasyAntiCheat
 cls
 echo.1) Make sure you are logged into your Epic account or this will not work.
-echo.2) This automates the date change forcing method.
+echo.2) This bruteforces until the selected anti-cheat loads.
 echo.3) Please be patient while the script runs.
 echo.
 
@@ -138,7 +139,19 @@ GOTO:menuLOOP
 
 											
 
-:menu_4   Load Cheat
+:menu_4   Load Cheat (Maven)
+SET CurrentDir=%~dp0
+echo.Mapping Driver.
+mapdriver.exe
+echo.Map success? Press enter to inject cheat while in game.
+pause
+maven.exe
+pause
+echo. Injected.
+cls
+GOTO:EOF
+
+:menu_5   Load Cheat (Neutron CBV)
 cd C:\Users\fort\Desktop\LOL
 echo.Mapping Driver.
 mapdriver.exe
@@ -151,7 +164,7 @@ cls
 GOTO:EOF
 
 
-:menu_5   Check Serials
+:menu_6   Check Serials
 wmic diskdrive get serialnumber
 wmic memorychip get serialnumber
 wmic baseboard get serialnumber
@@ -159,7 +172,7 @@ pause
 cls
 GOTO:menuLOOP
 
-:menu_6  Clean Traces
+:menu_7  Clean Traces
 
 taskkill /f /im epicgameslauncher.exe
 taskkill /f /im FortniteClient-Win64-Shipping_EAC.exe
