@@ -84,7 +84,7 @@ cls
 GOTO:menuLOOP
 
 
-:menu_3   Force EasyAntiCheat
+:menu_3   Bruteforce EasyAntiCheat
 cls
 echo.1) Make sure you are logged into your Epic account or this will not work.
 echo.2) This bruteforces until the selected anti-cheat loads.
@@ -139,7 +139,7 @@ GOTO:menuLOOP
 
 											
 
-:menu_4   Load Cheat (Maven)
+:menu_4   Load Cheat (Maven - Detected)
 SET CurrentDir=%~dp0
 echo.Mapping Driver.
 mapdriver.exe
@@ -151,7 +151,7 @@ echo. Injected.
 cls
 GOTO:EOF
 
-:menu_5   Load Cheat (Neutron CBV)
+:menu_5   Load Cheat (Neutron CBV - Semi detected)
 cd C:\Users\fort\Desktop\LOL
 echo.Mapping Driver.
 mapdriver.exe
@@ -163,8 +163,19 @@ echo. Injected.
 cls
 GOTO:EOF
 
+:menu_6   Load FOV Changer
+echo.Press enter when in a game to inject.
+pause
+set path=%~dp0%
+cd %path%
+echo.Mapping Driver.
+mapper.exe VSTXRAID.SYS print1337.sys
+echo.Success.
+pause
+cls
+GOTO:EOF
 
-:menu_6   Check Serials
+:menu_7   Check Serials
 wmic diskdrive get serialnumber
 wmic memorychip get serialnumber
 wmic baseboard get serialnumber
@@ -172,7 +183,7 @@ pause
 cls
 GOTO:menuLOOP
 
-:menu_7  Clean Traces
+:menu_8  Clean Traces
 
 taskkill /f /im epicgameslauncher.exe
 taskkill /f /im FortniteClient-Win64-Shipping_EAC.exe
