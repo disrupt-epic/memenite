@@ -7,7 +7,11 @@
 This tool is completely free and opensource.
 Why batch? It works. It's user friendly, convenient, easy for anyone to learn, edit and make improvements. 
 
-Drag main folder to Desktop.
+### Using:
+
+Drag main folder to Desktop
+Run 'Run me.bat'
+Select choice
 
 ### Menu:
 ![memenite](https://i.snipboard.io/kn9Plm.jpg)
