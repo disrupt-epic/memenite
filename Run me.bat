@@ -152,7 +152,7 @@ cls
 GOTO:EOF
 
 :menu_5   Load Cheat (Neutron CBV - Semi detected)
-cd C:\Users\fort\Desktop\LOL
+SET CurrentDir=%~dp0
 echo.Mapping Driver.
 mapdriver.exe
 echo.Map success? Press enter to inject cheat while in game.
