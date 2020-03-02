@@ -24,5 +24,5 @@ Select choice
 - Fortnite Cheat ✔️
 - Fortnite FOV Changer ✔️
 
-### Credits: OverHax, KDMapper, CBV.
+### Credits: OverHax, KDMapper.
 
